@@ -41,21 +41,29 @@ The dataset contains thousands of images of healthy and diseased plant leaves fr
 
 ---
 
-## Day 1 Progress
+## Project Progress
 
-### Completed Tasks
+### Day 1
+
+Completed Tasks
 
 * Importing Dependencies
 * Data Curation
 * Data Preprocessing
 
+### Day 2
+
+Completed Tasks
+
+1. CNN Architecture Design
+2. Model Analysis & Compilation
+3. Model Training
+
 ### Upcoming Tasks
 
-* Train-Test Split
-* CNN Architecture Design
-* Model Training
 * Model Evaluation
-* Predictive System Development
+* Accuracy & Loss Visualization
+* Disease Prediction System
 * Streamlit Web Application
 * Docker Deployment
 
