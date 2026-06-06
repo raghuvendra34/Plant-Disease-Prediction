@@ -55,17 +55,25 @@ Completed Tasks
 
 Completed Tasks
 
-1. CNN Architecture Design
-2. Model Analysis & Compilation
-3. Model Training
+* CNN Architecture Design
+* Model Compilation
+* Model Training
+
+### Day 3
+
+Completed Tasks
+
+* Model Evaluation with Training & Validation Accuracy and Loss Visualization
+* Disease Prediction System with Class Index Mapping
+* Prediction Testing on Sample Images
 
 ### Upcoming Tasks
 
-* Model Evaluation
-* Accuracy & Loss Visualization
-* Disease Prediction System
 * Streamlit Web Application
-* Docker Deployment
+* User Image Upload Feature
+* Model Integration with Streamlit
+* GitHub Documentation
+* Deployment on Streamlit Cloud
 
 ---
 
@@ -79,7 +87,6 @@ Completed Tasks
 * OpenCV
 * Scikit-learn
 * Streamlit
-* Docker
 
 ---
 
@@ -92,11 +99,14 @@ Plant-Disease-Prediction/
 ├── README.md
 ├── requirements.txt
 ├── .gitignore
+├── class_indices.json
 │
 ├── data/
 │   └── dataset_link.txt
 │
-└── images/
+├── images/
+│
+└── test_images/
 ```
 
 ---
@@ -107,7 +117,7 @@ Plant-Disease-Prediction/
 * Data Augmentation
 * Transfer Learning (ResNet50, EfficientNet)
 * Model Optimization
-* Cloud Deployment (AWS/GCP/Azure)
+* Cloud Deployment
 
 ---
 
