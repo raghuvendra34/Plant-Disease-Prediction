@@ -1,9 +1,7 @@
+streamlit
+tensorflow==2.16.1
 numpy
 pandas
-matplotlib
-seaborn
-opencv-python
-Pillow
 scikit-learn
-tensorflow
-jupyter
+Pillow
+opencv-python-headless
