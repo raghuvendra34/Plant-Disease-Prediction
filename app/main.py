@@ -1,6 +1,7 @@
 import os
 import json
 from PIL import Image
+import gdown
 
 import numpy as np
 import tensorflow as tf
@@ -8,8 +9,26 @@ import streamlit as st
 
 
 working_dir = os.path.dirname(os.path.abspath(__file__))
-model_path = f"{working_dir}/trained_model/plant_disease_prediction_model.keras"
-# Load the pre-trained model
+
+model_dir = os.path.join(working_dir, "trained_model")
+os.makedirs(model_dir, exist_ok=True)
+
+model_path = os.path.join(
+    model_dir,
+    "plant_disease_prediction_model.keras"
+)
+
+if not os.path.exists(model_path):
+    file_id = "1a9volp-XB29zDHFT_r2FCvJdV_tCM1yR"
+
+    url = f"https://drive.google.com/uc?id={file_id}"
+
+    gdown.download(
+        url,
+        model_path,
+        quiet=False
+    )
+
 model = tf.keras.models.load_model(model_path)
 
 # loading the class names
