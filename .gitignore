@@ -15,6 +15,7 @@ dataset/
 *.keras
 *.pth
 *.pkl
+app/trained_model/*.keras
 
 # Environment
 venv/
