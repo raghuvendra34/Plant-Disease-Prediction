@@ -68,6 +68,7 @@ Streamlit Web Application
 
 ## Project Structure
 
+```text
 Plant-Disease-Prediction/
 │
 ├── app/
@@ -86,7 +87,7 @@ Plant-Disease-Prediction/
 ├── requirements.txt
 ├── dataset_link.txt
 └── .gitignore
-
+```
 ---
 
 ## Model Download
