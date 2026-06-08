@@ -187,26 +187,7 @@ The application has been successfully tested in a local Streamlit environment.
 * Cloud Deployment
 * Mobile Application Integration
 * Improved Prediction Confidence Analysis
-
----
-
-## Author
-
-**Raghuvendra Kumar**
-
-Aspiring AI/ML Engineer passionate about Machine Learning, Deep Learning, and Generative AI.
-
----
-
-## Future Improvements
-
-* Transfer Learning (ResNet50, EfficientNet)
-* Hyperparameter Optimization
-* Model Compression
-* Cloud Deployment
-* Mobile Application Integration
-* Improved Prediction Confidence Analysis
-
+  
 ---
 
 ## Author
