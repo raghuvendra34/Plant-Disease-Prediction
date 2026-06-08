@@ -29,3 +29,4 @@ venv/
 
 # Logs
 *.log
+app/trained_model/*.keras
