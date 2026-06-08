@@ -68,26 +68,24 @@ Streamlit Web Application
 
 ## Project Structure
 
-```text
 Plant-Disease-Prediction/
 │
 ├── app/
 │   ├── main.py
 │   ├── class_indices.json
-│   └── trained_model/
+│   └── requirements.txt
 │
 ├── model_training_notebook/
 │   └── Plant_Disease_Prediction.ipynb
 │
-├── test_images/
-│
 ├── screenshots/
+│
+├── test_images/
 │
 ├── README.md
 ├── requirements.txt
-├── .gitignore
-└── dataset_link.txt
-```
+├── dataset_link.txt
+└── .gitignore
 
 ---
 
